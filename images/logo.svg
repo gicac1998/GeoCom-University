@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.569" height="65.569" viewBox="0 0 65.569 65.569">
+  <defs>
+    <filter id="Logo" x="0" y="0" width="65.569" height="65.569" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Logo)">
+    <path id="Logo-2" data-name="Logo" d="M26.667,40A13.334,13.334,0,0,1,13.333,26.667h9.333a4.005,4.005,0,0,0,4-4V13.333A13.349,13.349,0,0,0,13.333,26.666H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0H22.667a4,4,0,0,1,4,4v9.334a13.333,13.333,0,0,1,0,26.667Z" transform="translate(32.78 60.07) rotate(-135)" fill="#96616b"/>
+  </g>
+</svg>
